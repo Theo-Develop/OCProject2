@@ -15,14 +15,19 @@
 
 body {
     display: flex;
-    justify-content: center;
+    width: 1440px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
+    display: flex;
+    padding: 0px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    align-self: stretch;
 }
 
 a {
@@ -33,6 +38,14 @@ a {
 .section-title {
     margin: 0;
     font-size: 22px;
+}
+
+.filters-title {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .card {
@@ -56,6 +69,46 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/****** Header ***********/
+header {
+    display: flex;
+    padding-right: 0px;
+    align-items: flex-start;
+    gap: 946px;
+    align-self: stretch;
+}
+
+nav img {
+    display: flex;
+    padding: 30px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 61.09px;
+    height: 19px;
+}
+
+nav ul {
+    display: flex;
+    width: 328.601px;
+    padding: 0px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 68px;
+}
+
+nav li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 68px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -120,9 +173,6 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

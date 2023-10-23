@@ -28,7 +28,7 @@ body {
     gap: 30px;
 }
 
-.main-container {
+main {
     display: flex;
     padding: 0px 50px;
     flex-direction: column;
@@ -45,6 +45,10 @@ a {
 .section-title {
     margin: 0;
     font-size: 22px;
+}
+
+.info-subtitle {
+    margin: 0;
 }
 
 .filters-title {
@@ -309,7 +313,7 @@ form {
 }
 
 /****** Hebergements ***********/
-.hebergements-card {
+.hebergements {
     display: flex;
     padding: 30px;
     flex-direction: column;
@@ -324,6 +328,7 @@ form {
     align-items: flex-start;
     gap: 30px;
     align-self: stretch;
+    margin-bottom: 30px;
 }
 
 .row2 {
@@ -331,13 +336,14 @@ form {
     align-items: flex-start;
     gap: 30px;
     align-self: stretch;
+    margin-bottom: 30px;
 }
 
 .hebergements-cards .card {
     display: flex;
-    margin-top: 30px;
     padding-bottom: 15px;
     flex-direction: column;
+    align-items: center;
     gap: 4px;
     flex: 1 0 0;
 }
@@ -362,6 +368,22 @@ form {
 .hebergements .filters-title {
     display: flex;
     align-items: stretch;
+    margin: 0px;
+}
+
+.card-title {
+    display: flex;
+    margin: 4px;
+}
+
+.card-subtitle {
+    display: flex;
+    margin: 4px;
+}
+
+.card-rating {
+    display: flex;
+    margin: 4px;
 }
 
 

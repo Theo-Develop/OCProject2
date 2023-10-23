@@ -23,6 +23,7 @@
 body {
     display: flex;
     width: 1440px;
+    height: 1889.019px;
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
@@ -57,6 +58,7 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0px;
 }
 
 .card {
@@ -440,11 +442,6 @@ form {
     align-items: flex-start;
     gap: 30px;
     align-self: stretch;
-    background-color: grey;
-}
-
-.activités .section-title {
-    background-color: grey;
 }
 
 .activités .tourism {
@@ -465,7 +462,6 @@ form {
 
     /* Shadow/Card */
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-    background-color: #000;
 }
 
 .tourism img {
@@ -487,44 +483,31 @@ form {
     align-self: stretch;
     border-radius: 0px 0px 20px 20px;
     background: var(--White, #FFF);
+    margin: 0;
 }
 
 /****** footer ***********/
 footer {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
     background: var(--Grey, #F2F2F2);
+}
+
+.footer-card {
     display: flex;
-    align-items: flex-start;
+    flex: 1 0 0;
     align-self: stretch;
 }
 
-.Á-propos {
+.footer-card ul {
     display: flex;
+    list-style: none;
     padding: 20px;
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
     flex: 1 0 0;
-    align-self: stretch;
-}
-
-.Nos-hébergements {
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-    flex: 1 0 0;
-    align-self: stretch;
-}
-
-.Assistance {
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-    flex: 1 0 0;
-    align-self: stretch;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

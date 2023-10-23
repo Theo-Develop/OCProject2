@@ -227,22 +227,21 @@ form {
     /* Cache l'objet tout en le gardant en place */
 }
 
-.filters {
+.filters ul {
     display: flex;
     height: 50px;
-    align-items: center;
-    gap: 15px;
-}
-
-.filters a {
-    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .filters li {
     display: flex;
     height: 50px;
-    padding: 4px 19px;
+    padding: 0px 19px;
     align-items: center;
     gap: 10px;
     border-radius: 25px;
@@ -370,7 +369,6 @@ form {
 .hebergements .filters-title {
     display: flex;
     align-items: stretch;
-    margin: 0px;
 }
 
 .hebergements .card-title {

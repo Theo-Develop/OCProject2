@@ -87,9 +87,9 @@ a {
 /****** Header ***********/
 nav {
     display: flex;
-    padding-right: 0px;
+    justify-content: center;
     align-items: flex-start;
-    gap: 946px;
+    gap: 934.91px;
     align-self: stretch;
 }
 
@@ -103,13 +103,20 @@ nav img {
     height: 19px;
 }
 
-nav ul {
+.ul-header {
+    display: flex;
+    padding: 0px 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-header ul {
     display: flex;
     list-style: none;
-    width: 328.601px;
-    align-items: center;
-    padding: 0px 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
     gap: 68px;
+    padding: 0px;
 }
 
 nav li {
@@ -128,7 +135,7 @@ nav li :after {
     height: 3px;
     width: 0;
     left: 0;
-    bottom: 40px;
+    bottom: 32px;
 }
 
 nav li :hover {

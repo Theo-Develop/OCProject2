@@ -265,7 +265,7 @@ form {
     line-height: normal;
 }
 
-.filters a :hover {
+.filters li:hover {
     background-color: #DEEBFF;
 }
 
@@ -274,6 +274,10 @@ form {
     width: 22px;
     height: 22px;
     align-items: center;
+}
+
+.filters a {
+    display: flex;
 }
 
 .information {
@@ -636,21 +640,19 @@ footer {
     .filters ul {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         gap: 20px 10px;
-        justify-content: left;
     }
 
     .filters a {
         display: flex;
-        flex-grow: 1;
-        width: 45%;
-        ;
+        align-items: center;
     }
 
     .filters li {
         display: flex;
         flex-grow: 1;
-        width: 45%;
+        width: 30%;
         font-size: 14px;
     }
 

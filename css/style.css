@@ -212,9 +212,6 @@ form {
     border: 1px solid var(--Blue, #0065FC);
     background: var(--Blue, #0065FC);
     cursor: pointer;
-}
-
-.search-button p {
     color: var(--White, #FFF);
     text-align: center;
     font-family: Raleway;
@@ -446,14 +443,18 @@ footer {
 .footer-card {
     display: flex;
     flex: 1 0 0;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0px;
 }
 
 .footer-card ul {
     display: flex;
     list-style: none;
-    padding: 20px;
     flex-direction: column;
     gap: 15px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -613,21 +614,18 @@ footer {
 
     .search-button {
         border-radius: 15px;
-    }
-
-    .search-button p {
-        display: none;
-        visibility: hidden;
+        color: transparent;
+        font-size: 0px;
+        display: block;
     }
 
     .fa-magnifying-glass {
-        width: 17px;
-        height: 17px;
         color: white;
         align-items: center;
         justify-content: center;
         display: flex;
         visibility: visible;
+        font-size: 18px;
     }
 
     .filters {

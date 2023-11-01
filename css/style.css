@@ -16,6 +16,7 @@
 body {
     display: flex;
     max-width: 1440px;
+    min-width: 320px;
     justify-content: center;
     flex-direction: column;
     margin: 0px;

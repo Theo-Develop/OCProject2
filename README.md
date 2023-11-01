@@ -2,7 +2,7 @@
 
 # <p align="center">Booki</p>
 
- <img src="presentation-Booki.png" alt="presentation" />
+ <img src="./README/presentation-Booki.png" alt="presentation" />
 
 # <p > Informations</p>
 

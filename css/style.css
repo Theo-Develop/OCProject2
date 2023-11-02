@@ -208,18 +208,13 @@ form {
     height: 49px;
     padding: 15px 16px;
     align-items: center;
-    gap: 10px;
     border-radius: 0px 15px 15px 0px;
     border: 1px solid var(--Blue, #0065FC);
     background: var(--Blue, #0065FC);
     cursor: pointer;
     color: var(--White, #FFF);
-    text-align: center;
-    font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .search-button:hover {

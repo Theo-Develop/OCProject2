@@ -132,11 +132,11 @@ nav img {
     padding: 0px;
 }
 
-nav li {
+.ul-header li {
     position: relative;
 }
 
-nav li :after {
+.ul-header li :after {
     content: "";
     position: absolute;
     background-color: #0065FC;
@@ -145,11 +145,11 @@ nav li :after {
     bottom: 32px;
 }
 
-nav li :hover {
+.ul-header li :hover {
     color: #0065FC;
 }
 
-nav li :hover:after {
+.ul-header li :hover:after {
     width: 100%;
 }
 
@@ -557,14 +557,14 @@ footer {
         justify-content: space-around;
     }
 
-    nav li {
+    .ul-header li {
         display: flex;
         flex: 1;
         justify-content: center;
         position: relative;
     }
 
-    nav li :after {
+    .ul-header li :after {
         content: "";
         position: absolute;
         background-color: #0065FC;
@@ -573,7 +573,7 @@ footer {
         width: 0%;
     }
 
-    nav li :hover :after {
+    .ul-header li :hover :after {
         width: 100%;
     }
 
